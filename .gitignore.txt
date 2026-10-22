@@ -1,0 +1,27 @@
+cat > .gitignore <<'EOF'
+# Python virtual environments
+.venv/
+linux_venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+
+# Temporary files
+*.log
+*.tmp
+~$*
+
+# Large video files (store separately)
+*.mp4
+
+# Generated build files
+dist/
+build/
+EOF
